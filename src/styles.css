@@ -3,3 +3,8 @@
 @import "~highlight.js/styles/monokai-sublime.css";
 @import './assets/css/freeng.css';
 @import './assets/css/symbol.css';
+input[disabled] {
+  cursor: not-allowed!important;
+  background-color: #eee !important;
+  opacity: 1;
+}

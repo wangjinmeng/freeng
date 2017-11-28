@@ -244,8 +244,7 @@
   transition: all 0.25s;
   cursor: pointer; }
 :host /deep/ .left-menu .accordion-toggle i,
-:host /deep/ .left-menu .left-menu-item li i {
-  font-size: .8rem; }
+:host /deep/ .left-menu .left-menu-item li i {  font-size: .8rem; }
 :host /deep/ .left-menu .accordion-toggle .accordion-toggle-title,
 :host /deep/ .left-menu .left-menu-item li .accordion-toggle-title {
   padding-left: 1rem; }

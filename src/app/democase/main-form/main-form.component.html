@@ -99,7 +99,7 @@
           <free-tab header="PREVIEW">
             <p style="width: 100%;">{{value}}</p>
             <p>
-              <free-inputtext [(ngModel)]="value">
+              <free-inputtext [(ngModel)]="value" disabled="true">
                 Email address
               </free-inputtext>
             </p>
@@ -136,7 +136,7 @@
         <h3 class="free-toolbar">Prefix</h3>
         <free-tab-group direction="right">
           <free-tab header="PREVIEW">
-            <free-inputtext prefix="user"></free-inputtext>
+            <free-inputtext prefix="user"  disabled="true"></free-inputtext>
           </free-tab>
           <free-tab header="CODE">
             <free-code lang="html">
@@ -150,7 +150,7 @@
         <h3 class="free-toolbar">Icon</h3>
         <free-tab-group direction="right">
           <free-tab header="PREVIEW">
-            <free-inputtext icon="search"></free-inputtext>
+            <free-inputtext icon="search"  disabled="true"></free-inputtext>
           </free-tab>
           <free-tab header="CODE">
             <free-code lang="html">

@@ -33,7 +33,6 @@ export class IndexComponent implements OnInit, AfterViewInit, OnDestroy {
   @HostListener('window:resize') onResize() {
     this.resize();
   }
-
   constructor(public renderer2: Renderer2,
               public fb: FormBuilder,
               public router: Router,
